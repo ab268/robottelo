@@ -5,6 +5,10 @@ import os
 import sys
 import unittest
 
+PATH = os.path.abspath(os.path.curdir)
+if PATH not in sys.path:
+    sys.path.append(PATH)
+
 if __name__ == "__main__":
 
     prog = "Robottelo"

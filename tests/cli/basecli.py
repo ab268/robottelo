@@ -8,7 +8,7 @@ import os
 import sys
 import unittest
 
-from robottelo.lib.cli.user import User
+from lib.cli.user import User
 
 try:
     import paramiko
